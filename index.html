@@ -33,11 +33,19 @@
           <div class="col-12">
             <ul class="list-group">
               <li
-                class="list-group-item py-3"
+                class="list-group-item py-3 d-flex justify-content-between"
                 v-for="(item,index) in todoList"
                 :class="{ 'text-decoration-line-through': item.done }"
               >
                 {{ item.text }}
+                <div>
+                  <button type="button" class="btn">
+                    <i
+                      class="fa-solid fa-circle-xmark fa-lg"
+                      style="color: #df0000"
+                    ></i>
+                  </button>
+                </div>
               </li>
             </ul>
           </div>
