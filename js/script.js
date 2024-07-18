@@ -16,6 +16,15 @@ createApp({
     };
   },
   methods: {
+    addTodo() {
+      if (this.newTodo) {
+        this.todoList.push({
+          text: this.newTodo,
+          done: false,
+        });
+        this.newTodo = null;
+      }
+    },
     removeTodo() {
       this.todoList.splice(this.index, 1);
     },
