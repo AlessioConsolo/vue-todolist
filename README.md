@@ -25,3 +25,8 @@ Milestone 2:
 1. Aggiungo l'icona x a fianco ad ogni item
 2. Creo la funzione che mi permette di rimuovere l'item dalla lista
 3. Creo l'evento click sulla x e chiamo la funzione
+
+Milestone 3:
+
+1. Aggiungo il campo input testuale ed il pulsante all'interno del DOM
+2. Creo la funzione che mi permette di aggiungere il testo inserito in input all'interno della lista
