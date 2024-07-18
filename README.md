@@ -12,6 +12,16 @@ MILESTONE 3 Predisporre un campo di input testuale e un pulsante "aggiungi": cli
 
 Bonus: 1- oltre al click sul pulsante, intercettare anche il tasto ENTER per aggiungere il todo alla lista 2- cliccando sul testo dell'item, invertire il valore della proprietà done del todo corrispondente (se done era uguale a false, impostare true e viceversa)
 
+---
+
+Milestone 1:
+
 1. Creo la struttura HTML e la stilizzo
 2. Creo l'array di oggetti in VueJS e lo mostro come lista in HTML
 3. Se l'item è uguale a true aggiungo la classe che mi permette di sbarrare la scritta
+
+Milestone 2:
+
+1. Aggiungo l'icona x a fianco ad ogni item
+2. Creo la funzione che mi permette di rimuovere l'item dalla lista
+3. Creo l'evento click sulla x e chiamo la funzione
