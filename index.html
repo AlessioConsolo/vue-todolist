@@ -32,7 +32,13 @@
         <div class="row mt-5">
           <div class="col-12">
             <ul class="list-group">
-              <li class="list-group-item py-3"></li>
+              <li
+                class="list-group-item py-3"
+                v-for="(item,index) in todoList"
+                :class="{ 'text-decoration-line-through': item.done }"
+              >
+                {{ item.text }}
+              </li>
             </ul>
           </div>
           <div class="d-flex mt-3">

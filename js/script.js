@@ -11,9 +11,8 @@ createApp({
         { text: "Diventare uno sviluppatore web dignitoso", done: false },
         { text: "Comprare uno squalo", done: true },
         { text: "Sopravvivere al caldo", done: false },
-        { text: "Formattare il computer", done: null },
+        { text: "Formattare il computer", done: false },
       ],
     };
   },
-  methods: {},
 }).mount("#app");
